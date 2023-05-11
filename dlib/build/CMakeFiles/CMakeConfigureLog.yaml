@@ -1,0 +1,1276 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 5.19.0-38-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c51c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c51c5.dir/build.make CMakeFiles/cmTC_c51c5.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx'
+        Building C object CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -c /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c51c5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccot1At.s
+        GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/'
+         as -v --64 -o CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o /tmp/cccot1At.s
+        GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c51c5
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c51c5.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -o cmTC_c51c5 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c51c5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c51c5.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Nxmqq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c51c5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c51c5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c51c5.'
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c51c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c51c5.dir/build.make CMakeFiles/cmTC_c51c5.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-mLXvfx']
+        ignore line: [Building C object CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -c /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c51c5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccot1At.s]
+        ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o /tmp/cccot1At.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c51c5]
+        ignore line: [/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c51c5.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -o cmTC_c51c5 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c51c5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c51c5.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Nxmqq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c51c5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8Nxmqq.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c51c5] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_c51c5.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6931b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6931b.dir/build.make CMakeFiles/cmTC_6931b.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno'
+        Building CXX object CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -c /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6931b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKcV297.s
+        GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 449548cbb29044828dc7ea158b577b98
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKcV297.s
+        GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_6931b
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6931b.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6931b 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6931b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6931b.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8m47Pu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6931b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6931b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6931b.'
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6931b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6931b.dir/build.make CMakeFiles/cmTC_6931b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-JKzuno']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -c /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6931b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKcV297.s]
+        ignore line: [GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 449548cbb29044828dc7ea158b577b98]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKcV297.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_6931b]
+        ignore line: [/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6931b.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6931b ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6931b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6931b.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8m47Pu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6931b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8m47Pu.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6931b] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_6931b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "dlib/CMakeLists.txt:334 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07d53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07d53.dir/build.make CMakeFiles/cmTC_07d53.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6'
+        Building C object CMakeFiles/cmTC_07d53.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_07d53.dir/src.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6/src.c
+        Linking C executable cmTC_07d53
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d53.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_07d53.dir/src.c.o -o cmTC_07d53 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ZRYBc6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b97fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b97fd.dir/build.make CMakeFiles/cmTC_b97fd.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o'
+        Building C object CMakeFiles/cmTC_b97fd.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b97fd.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o/CheckFunctionExists.c
+        Linking C executable cmTC_b97fd
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b97fd.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b97fd.dir/CheckFunctionExists.c.o -o cmTC_b97fd  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-phk10o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e04ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e04ce.dir/build.make CMakeFiles/cmTC_e04ce.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC'
+        Building C object CMakeFiles/cmTC_e04ce.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_e04ce.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC/CheckFunctionExists.c
+        Linking C executable cmTC_e04ce
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04ce.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_e04ce.dir/CheckFunctionExists.c.o -o cmTC_e04ce 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DlZJlC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb29d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb29d.dir/build.make CMakeFiles/cmTC_fb29d.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z'
+        Building C object CMakeFiles/cmTC_fb29d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_fb29d.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z/CheckFunctionExists.c
+        Linking C executable cmTC_fb29d
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb29d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_fb29d.dir/CheckFunctionExists.c.o -o cmTC_fb29d 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-XdyE9z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_519a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_519a8.dir/build.make CMakeFiles/cmTC_519a8.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl'
+        Building C object CMakeFiles/cmTC_519a8.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_519a8.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl/CheckFunctionExists.c
+        Linking C executable cmTC_519a8
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_519a8.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_519a8.dir/CheckFunctionExists.c.o -o cmTC_519a8 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-rkTBNl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b1b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b1b7.dir/build.make CMakeFiles/cmTC_7b1b7.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0'
+        Building C object CMakeFiles/cmTC_7b1b7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_7b1b7.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0/CheckFunctionExists.c
+        Linking C executable cmTC_7b1b7
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1b7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_7b1b7.dir/CheckFunctionExists.c.o -o cmTC_7b1b7 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-qKSYG0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/FindX11.cmake:555 (check_library_exists)"
+      - "dlib/CMakeLists.txt:397 (include)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7760/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7760.dir/build.make CMakeFiles/cmTC_e7760.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC'
+        Building C object CMakeFiles/cmTC_e7760.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_e7760.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC/CheckFunctionExists.c
+        Linking C executable cmTC_e7760
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7760.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_e7760.dir/CheckFunctionExists.c.o -o cmTC_e7760  -lICE 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-V4sgsC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libpng.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:441 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build"
+    buildResult:
+      variable: "test_for_libpng_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Scanning dependencies of target libpng_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        [ 50%] Building CXX object CMakeFiles/libpng_test.dir/libpng_test.cpp.o
+        /usr/bin/c++    -o CMakeFiles/libpng_test.dir/libpng_test.cpp.o -c /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
+        [100%] Linking CXX executable libpng_test
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/libpng_test.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/libpng_test.dir/libpng_test.cpp.o -o libpng_test  /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libz.so 
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        [100%] Built target libpng_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libjpeg.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:503 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build"
+    buildResult:
+      variable: "test_for_libjpeg_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Scanning dependencies of target libjpeg_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        [ 50%] Building CXX object CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o
+        /usr/bin/c++    -o CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o -c /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg/libjpeg_test.cpp
+        [100%] Linking CXX executable libjpeg_test
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/libjpeg_test.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/libjpeg_test.dir/libjpeg_test.cpp.o -o libjpeg_test  /usr/lib/x86_64-linux-gnu/libjpeg.so 
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        [100%] Built target libjpeg_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:73 (CHECK_FUNCTION_EXISTS)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for cblas_ddot"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "PKGCFG_HAVE_CBLAS"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e48fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e48fa.dir/build.make CMakeFiles/cmTC_e48fa.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM'
+        Building C object CMakeFiles/cmTC_e48fa.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -o CMakeFiles/cmTC_e48fa.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM/CheckFunctionExists.c
+        Linking C executable cmTC_e48fa
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48fa.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot CMakeFiles/cmTC_e48fa.dir/CheckFunctionExists.c.o -o cmTC_e48fa 
+        /home/linuxbrew/.linuxbrew/bin/ld: CMakeFiles/cmTC_e48fa.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `cblas_ddot'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_e48fa.dir/build.make:99: cmTC_e48fa] Error 1
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-ycGMQM'
+        gmake: *** [Makefile:127: cmTC_e48fa/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80f7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80f7e.dir/build.make CMakeFiles/cmTC_80f7e.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E'
+        Building C object CMakeFiles/cmTC_80f7e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_80f7e.dir/CheckIncludeFile.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E/CheckIncludeFile.c
+        Linking C executable cmTC_80f7e
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f7e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_80f7e.dir/CheckIncludeFile.c.o -o cmTC_80f7e 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-RVe54E'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b349/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b349.dir/build.make CMakeFiles/cmTC_3b349.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3'
+        Building C object CMakeFiles/cmTC_3b349.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3b349.dir/CheckIncludeFile.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3/CheckIncludeFile.c
+        Linking C executable cmTC_3b349
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b349.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3b349.dir/CheckIncludeFile.c.o -o cmTC_3b349 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-uFccb3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ab4a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ab4a.dir/build.make CMakeFiles/cmTC_9ab4a.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8'
+        Building C object CMakeFiles/cmTC_9ab4a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9ab4a.dir/CheckIncludeFile.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8/CheckIncludeFile.c
+        Linking C executable cmTC_9ab4a
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab4a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9ab4a.dir/CheckIncludeFile.c.o -o cmTC_9ab4a 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-Rb86c8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SIZE_OF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8fe59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fe59.dir/build.make CMakeFiles/cmTC_8fe59.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm'
+        Building C object CMakeFiles/cmTC_8fe59.dir/SIZE_OF_VOID_PTR.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8fe59.dir/SIZE_OF_VOID_PTR.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm/SIZE_OF_VOID_PTR.c
+        Linking C executable cmTC_8fe59
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe59.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8fe59.dir/SIZE_OF_VOID_PTR.c.o -o cmTC_8fe59 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-QksqRm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:210 (CHECK_FUNCTION_EXISTS)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for sgetrf_single"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OPENBLAS_HAS_LAPACK"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50ca7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50ca7.dir/build.make CMakeFiles/cmTC_50ca7.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY'
+        Building C object CMakeFiles/cmTC_50ca7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgetrf_single -o CMakeFiles/cmTC_50ca7.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY/CheckFunctionExists.c
+        Linking C executable cmTC_50ca7
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ca7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgetrf_single CMakeFiles/cmTC_50ca7.dir/CheckFunctionExists.c.o -o cmTC_50ca7  /usr/lib/x86_64-linux-gnu/libopenblas.so 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-wImBcY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:289 (CHECK_FUNCTION_EXISTS)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for cblas_ddot"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FOUND_BLAS_HAS_CBLAS"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_757d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_757d3.dir/build.make CMakeFiles/cmTC_757d3.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6'
+        Building C object CMakeFiles/cmTC_757d3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -o CMakeFiles/cmTC_757d3.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6/CheckFunctionExists.c
+        Linking C executable cmTC_757d3
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757d3.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot CMakeFiles/cmTC_757d3.dir/CheckFunctionExists.c.o -o cmTC_757d3  /usr/lib/x86_64-linux-gnu/libopenblas.so 
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-pIbsJ6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:453 (check_function_exists)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for sgesv"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "LAPACK_FOUND_C_UNMANGLED"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93f3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_93f3e.dir/build.make CMakeFiles/cmTC_93f3e.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0'
+        Building C object CMakeFiles/cmTC_93f3e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv -o CMakeFiles/cmTC_93f3e.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0/CheckFunctionExists.c
+        Linking C executable cmTC_93f3e
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f3e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv CMakeFiles/cmTC_93f3e.dir/CheckFunctionExists.c.o -o cmTC_93f3e 
+        /home/linuxbrew/.linuxbrew/bin/ld: CMakeFiles/cmTC_93f3e.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `sgesv'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_93f3e.dir/build.make:99: cmTC_93f3e] Error 1
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-DPGlK0'
+        gmake: *** [Makefile:127: cmTC_93f3e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:454 (check_function_exists)"
+      - "dlib/CMakeLists.txt:587 (include)"
+    checks:
+      - "Looking for sgesv_"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "LAPACK_FOUND_C_MANGLED"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3f33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3f33.dir/build.make CMakeFiles/cmTC_c3f33.dir/build
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5'
+        Building C object CMakeFiles/cmTC_c3f33.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_ -o CMakeFiles/cmTC_c3f33.dir/CheckFunctionExists.c.o -c /home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5/CheckFunctionExists.c
+        Linking C executable cmTC_c3f33
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f33.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_ CMakeFiles/cmTC_c3f33.dir/CheckFunctionExists.c.o -o cmTC_c3f33 
+        /home/linuxbrew/.linuxbrew/bin/ld: CMakeFiles/cmTC_c3f33.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x14): undefined reference to `sgesv_'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_c3f33.dir/build.make:99: cmTC_c3f33] Error 1
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/CMakeFiles/CMakeScratch/TryCompile-NKyCu5'
+        gmake: *** [Makefile:127: cmTC_c3f33/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libpng.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:441 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build"
+    buildResult:
+      variable: "test_for_libpng_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Scanning dependencies of target libpng_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        gmake[2]: Nothing to be done for 'CMakeFiles/libpng_test.dir/build'.
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        [100%] Built target libpng_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libjpeg.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:503 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build"
+    buildResult:
+      variable: "test_for_libjpeg_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Scanning dependencies of target libjpeg_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        gmake[2]: Nothing to be done for 'CMakeFiles/libjpeg_test.dir/build'.
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        [100%] Built target libjpeg_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libpng.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:441 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build"
+    buildResult:
+      variable: "test_for_libpng_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libpng /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles/libpng_test.dir/depend.internal".
+        Scanning dependencies of target libpng_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /usr/bin/gmake  -f CMakeFiles/libpng_test.dir/build.make CMakeFiles/libpng_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        gmake[2]: Nothing to be done for 'CMakeFiles/libpng_test.dir/build'.
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        [100%] Built target libpng_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libpng_build/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/find_libjpeg.cmake:25 (try_compile)"
+      - "dlib/CMakeLists.txt:503 (include)"
+    directories:
+      source: "/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg"
+      binary: "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build"
+    buildResult:
+      variable: "test_for_libjpeg_worked"
+      cached: true
+      stdout: |
+        Change Dir: /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build
+        
+        Run Build Command(s):/home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -S/home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg -B/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/depend
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        cd /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build && /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/dlib/cmake_utils/test_for_libjpeg /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/DependInfo.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Dependee "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir/depend.internal".
+        Scanning dependencies of target libjpeg_test
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /usr/bin/gmake  -f CMakeFiles/libjpeg_test.dir/build.make CMakeFiles/libjpeg_test.dir/build
+        gmake[2]: Entering directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        gmake[2]: Nothing to be done for 'CMakeFiles/libjpeg_test.dir/build'.
+        gmake[2]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        [100%] Built target libjpeg_test
+        gmake[1]: Leaving directory '/home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build'
+        /home/kalpit/anaconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/kalpit/Downloads/FairFace-master/dlib/build/dlib/test_for_libjpeg_build/CMakeFiles 0
+        
+      exitCode: 0
+...
